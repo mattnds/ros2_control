@@ -21,7 +21,6 @@ find_package(rclcpp REQUIRED)
 
 add_library(controller_manager SHARED
   src/controller_manager.cpp
-  src/controller_loader_pluginlib.cpp
   src/resource_manager.cpp
 )
 target_include_directories(controller_manager PRIVATE include)
